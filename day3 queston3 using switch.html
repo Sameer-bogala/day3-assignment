@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var m = prompt('enter ur marks out of 100');
+       
+       var b=parseInt(m/10)
+        
+        if (m > 100) {
+            document.write("entermaks betweeon 0-100");
+
+        }
+        switch (b) {
+            case (9,8,7):
+                console.log("thegradeis A");
+                document.write("thegradeis A");
+                break;
+            case (5,6): 
+                console.log("thegradeis B"); 
+                document.write("thegradeis B"); break;
+            case (4,3): 
+            console.log("thegradeis  c");
+                document.write("thegradeis C"); break;
+            case (2): 
+                console.log("thegradeis F ");
+                document.write("thegradeis F"); break;
+            default:
+                document.write("you marks are incorrect")
+        }
+        
+    </script>
+</head>
+<body><h2>grading marks using switch case</h2>
+
+</body>
+</html>
